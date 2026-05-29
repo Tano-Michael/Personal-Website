@@ -1,10 +1,10 @@
 {
-  "projectId": "cultivated-tide-007pf",
-  "appId": "1:865949386227:web:7c044aecb779c5a9b27e86",
-  "apiKey": "AIzaSyBJM5dPYXsAuh8n10uKCVEO1xs6PUqNXyA",
-  "authDomain": "cultivated-tide-007pf.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-66a878a6-b45c-42e4-a0b9-4bd183a42553",
-  "storageBucket": "cultivated-tide-007pf.firebasestorage.app",
-  "messagingSenderId": "865949386227",
-  "measurementId": ""
+  "projectId": "return-to-christ",
+  "appId": "1:219067617178:web:9b5604e8ea25b935bdf423",
+  "apiKey": "AIzaSyAMwWHUFcXir6Ybhq3EGr_YYbiH2zaiyqU",
+  "authDomain": "return-to-christ.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "return-to-christ.firebasestorage.app",
+  "messagingSenderId": "219067617178",
+  "measurementId": "G-5ZT2QN8EWJ"
 }
