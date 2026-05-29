@@ -1,0 +1,6 @@
+{
+  "name": "Return to Christ",
+  "description": "Drawing hearts back to Jesus through the living Word",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

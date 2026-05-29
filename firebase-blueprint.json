@@ -1,0 +1,69 @@
+{
+  "entities": {
+    "book": {
+      "title": "Book",
+      "description": "Book data",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "coverUrl": { "type": "string" },
+        "downloadUrl": { "type": "string" }
+      },
+      "required": ["title"]
+    },
+    "article": {
+      "title": "Article",
+      "description": "Article data",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "date": { "type": "string" },
+        "excerpt": { "type": "string" },
+        "content": { "type": "string" }
+      },
+      "required": ["title", "date", "content"]
+    },
+    "podcast": {
+      "title": "Podcast",
+      "description": "Podcast data",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "audioUrl": { "type": "string" },
+        "duration": { "type": "string" }
+      },
+      "required": ["title"]
+    },
+    "siteConfig": {
+      "title": "Site Config",
+      "description": "Site configuration data",
+      "type": "object",
+      "properties": {
+        "hero_title": { "type": "string" },
+        "hero_subtitle": { "type": "string" },
+        "hero_tagline": { "type": "string" },
+        "about": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "books/{bookId}": {
+      "schema": { "$ref": "#/entities/book" },
+      "description": "Stores books"
+    },
+    "articles/{articleId}": {
+      "schema": { "$ref": "#/entities/article" },
+      "description": "Stores articles"
+    },
+    "podcasts/{podcastId}": {
+      "schema": { "$ref": "#/entities/podcast" },
+      "description": "Stores podcasts"
+    },
+    "config/{configId}": {
+      "schema": { "$ref": "#/entities/siteConfig" },
+      "description": "Stores site config"
+    }
+  }
+}
